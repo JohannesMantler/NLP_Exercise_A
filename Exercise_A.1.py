@@ -17,5 +17,6 @@ cleaned_text = clean(text)
 
 print(cleaned_text)
 
+#store cleaned text in new file
 with open('cleaned_text.txt', 'w') as file:
     file.write(cleaned_text)
